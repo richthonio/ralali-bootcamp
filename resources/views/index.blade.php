@@ -2,14 +2,15 @@
 @section('content')
   <div class="container">
     <div class="content">
-      @foreach($data as $d)
+    @foreach ($data['data'] as $d)
       <div class="panel panel-default">
-        <div class="panel-heading">$d->title</div>
+        <div class="panel-heading">{{ $d['title'] }}</div>
         <div class="panel-body">
-          $d->content
+          {{ $d['content'] }}
         </div>
-        <div class="panel-footer">$d->date</div>
+        <div class="panel-footer">{{ $d['date'] }}</div>
       </div>
-      @endforeach
+    @endforeach
     </div>
   </div>
+@endsection
