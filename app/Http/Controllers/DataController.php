@@ -16,10 +16,7 @@ class DataController extends Controller
         $jsonString = file_get_contents(base_path('resources/data/data.json'));
         $data = json_decode($jsonString, true);
         
-        return view('index',compact('data'));
-
-
-
+        return view('index', compact('data'));
     }
 
     /**
