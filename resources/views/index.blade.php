@@ -2,4 +2,3 @@
 @section('content')
   Index page
 @endsection
-
