@@ -11,8 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
 
-Route::get('/data/all','DataController@index')->name('data.all');
+Route::get('/','DataController@index')->name('data.all');
