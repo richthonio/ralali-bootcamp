@@ -7,3 +7,37 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  height: 120px;
+  background: #eee;
+  padding: 44px 15px;
+}
+
+.site-header h1 {
+  float: left;
+  margin: 0;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.search-bar {
+  float: right;
+}
+
+.search-bar input[type="text"] {
+  width: 360px;
+  height: 32px;
+  padding: 5px;
+}
+
+.search-bar button {
+  height: 32px;
+  font-size: 16px;
+  padding: 0 10px;
+}
