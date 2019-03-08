@@ -8,5 +8,5 @@
 8
 @extends('master')
 @section('content')
-  Home
+  Home Ganti
 @endsection
