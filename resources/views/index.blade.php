@@ -8,6 +8,5 @@
 8
 @extends('master')
 @section('content')
-  Testtesttesttesttest
-  testtest
+  Home
 @endsection
